@@ -12,6 +12,6 @@ function App() {
 
 export default App;
 
-// npm cache clean --force
+// npm cache clean --force && rm -rf node_modules package-lock.json && npm install
 // rm -rf node_modules package-lock.json
 // npm install
