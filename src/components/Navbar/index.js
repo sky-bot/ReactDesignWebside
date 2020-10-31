@@ -5,13 +5,13 @@ import { Nav, NavbarContainer, NavLogo, MobileIcon, NavMenu, NavItems, NavLinks,
     NavBtnLink, NavBtn} from './NavbarElements'
 
 
-const Navbar = () => {
+const Navbar = ({ toggle }) => {
     return (
         <>
             <Nav>
                 <NavbarContainer>
                     <NavLogo to='/'>Sky-Bot</NavLogo>
-                    <MobileIcon>
+                    <MobileIcon onClick={toggle}>
                         <FaBars />
                     </MobileIcon>
                     <NavMenu>
